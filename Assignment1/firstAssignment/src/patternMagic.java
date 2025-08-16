@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class patternMagic {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int p = 5;// input.nextInt();
+        int p = input.nextInt();
         int n = 2*p-1;
         int row = 1;
         int star = n/2+1;
