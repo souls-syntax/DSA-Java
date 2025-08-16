@@ -9,8 +9,8 @@ public class r4Pattern {
         //int space = ;
         while (row<=n) {
             int i = 1;
-            while (i<star) {
-                System.out.print("* ");
+            while (i<=star) {
+                System.out.print("*");
                 i++;
             }
             row++;
