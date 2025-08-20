@@ -16,7 +16,7 @@ It has 8 data types
 5. Float --------> 4byte  - 2<sup>15</sup> to 2<sup>15</sup> -1
 6. double --------> 8byte - 2<sup>63</sup> to 2<sup>63</sup> -1
 7. char ------> 2byte  - 2<sup>15</sup> to 2<sup>15</sup> -1
-8. boolean --------> 1byte
+8. boolean --------> 1byte 
 
 **Type of literal is INT**
 
