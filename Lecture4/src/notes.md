@@ -31,3 +31,8 @@ It has 8 data types
     A=> 65 to Z=> 90
     0=> 48 to 9=> 57
 
+
+* When 0 is added as prefix in numbers in program then it is considered an octal representation by compiler
+037 = 31 due to compiler understanding 037 as octal
+
+

@@ -1,6 +1,7 @@
 public class Data_Types {
     public static void main(String[] args) {
-    System.out.println("jcjhbkj");
+        int n = 037;
+    System.out.println(n);
 
     }
 }
