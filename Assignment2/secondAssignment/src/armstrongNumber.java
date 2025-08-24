@@ -10,7 +10,9 @@ public class armstrongNumber {
                     System.out.println(n);
                     n++;
                 }
-                n++;
+                else {
+                    n++;
+                }
             }
 
         }
