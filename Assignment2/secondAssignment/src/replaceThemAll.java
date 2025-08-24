@@ -6,6 +6,10 @@ public class replaceThemAll {
         long n = input.nextLong();
         long newNumber = 0;
         long placeValue = 1;
+        if(n==0) {
+            System.out.println(5);
+            return;
+        }
         while (n>0) {
             long temp = n%10;
             if (temp == 0) {
