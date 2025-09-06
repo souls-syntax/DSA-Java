@@ -36,4 +36,19 @@ public class findPivotIndex {
         }
         return -1;
     }
+    public static int PivIde(int[] arr) {
+        int total = 0;
+        for (int i = 0; i < arr.length; i++) {
+            total = total + arr[i];
+        }
+
+        int leftSum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (leftSum == total - (leftSum + arr[i])) {
+                return i;
+            }
+            leftSum += leftSum;
+        }
+        return -1;
+    }
 }
