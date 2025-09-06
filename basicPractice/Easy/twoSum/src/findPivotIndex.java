@@ -47,7 +47,7 @@ public class findPivotIndex {
             if (leftSum == total - (leftSum + arr[i])) {
                 return i;
             }
-            leftSum += leftSum;
+            leftSum += arr[i];
         }
         return -1;
     }
